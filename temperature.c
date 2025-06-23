@@ -1,5 +1,6 @@
 #include <stdio.h>
 float celToFahr(float cel);
+float fahrToCels(float cel);
 
 int main() {
   float celsius, fahrenheit;
@@ -14,7 +15,7 @@ int main() {
   printf("Now enter temperature in Fahrenheit: ");
   scanf("%f", &fahrenheit);
 
-  celsius = (fahrenheit -32.0) * 5.0/9.0;
+  celsius = celToFahr(fahrenheit);
 
   printf("%.2f Fahrenheit = %.2f Celsius\n",fahrenheit, celsius);
 
@@ -25,4 +26,9 @@ int main() {
 float celToFahr(float cel)
 {
 	return	(cel * 9.0 / 5.0) + 32.0;
+}
+
+float fahrToCels(float fah);
+{
+	return (fah -32.0) * 5.0/9.0;
 }
