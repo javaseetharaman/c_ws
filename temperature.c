@@ -15,7 +15,7 @@ int main() {
   printf("Now enter temperature in Fahrenheit: ");
   scanf("%f", &fahrenheit);
 
-  celsius = celToFahr(fahrenheit);
+  celsius = fahrToCels(fahrenheit);
 
   printf("%.2f Fahrenheit = %.2f Celsius\n",fahrenheit, celsius);
 
@@ -25,10 +25,12 @@ int main() {
 
 float celToFahr(float cel)
 {
+	printf("%.2f Celsius Given\n",cel);
 	return	(cel * 9.0 / 5.0) + 32.0;
 }
 
-float fahrToCels(float fah);
+float fahrToCels(float fah)
 {
+	printf("Fahrenheit Given %.2f\n",fah);	
 	return (fah -32.0) * 5.0/9.0;
 }
