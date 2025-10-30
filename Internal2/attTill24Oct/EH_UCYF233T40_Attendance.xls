@@ -1,0 +1,281 @@
+
+
+
+
+
+ 
+    <style>
+
+    body {
+        /*font-family: "Courier New", monospace;*/
+        font-size: 8pt;
+        background-image: none;
+        background-color: white;
+        margin-left:auto;
+        margin-right:auto; 
+        margin-top: auto; 
+    }
+
+    table.myTable { border-collapse:collapse; border:0px solid black;padding:5px; }
+
+    table.myTable td, table.myTable th { border:1px solid black;padding:10px; }
+
+    table.myTable2 { border-collapse:collapse; border:0px solid black;padding:5px; }
+
+    table.myTable2 td, table.myTable th { border:0px solid black;padding:5px; }
+
+    table.myTable3 { border-collapse:collapse; border:1px solid black;padding:5px;margin-top: 100px; }
+
+    table.myTable3 td, table.myTable3 th { border:1px solid black;padding:5px; }
+
+    table.myTable4 { border-collapse:collapse; border:1px solid black;padding:5px; }
+
+    table.myTable4 td, table.myTable4 th { border:0px solid black;padding:5px; }
+
+    .breakAfter {
+
+        page-break-after: always
+
+    }
+
+</style>
+ 
+        
+<form name="frmAttendanceCourseReport" id="frmAttendanceCourseReport" method="post" autocomplete="off" style="background: white">
+    
+    <table class="myTable" style="background: white"  width='100%' cellpadding="5" cellspacing="2" align='center' border="1"  id="tblView1" >
+        <thead>
+            <tr>
+                <th colspan="6">
+                    <table class="myTable4" width="100%">
+                            <tr>
+                                <td >Office</td> 
+                                <td width='70%'>SCSVMV UNIVERSITY CAMPUS (ENATHUR)</td>  
+                            </tr>
+                            <tr>
+                                <td >Program & Section</td> 
+                                <td width='70%'>2314 - B.Sc. Cyber Security 3rd Semester-S1</td>  
+                            </tr>
+                            <tr>
+                                <td >Subject</td>
+                                <td width='70%'>2314 - B.Sc. Cyber Security 3rd Semester-S1</td>
+                            </tr>
+ 
+                        </table>
+                </th>
+            </tr>
+            <tr>
+                <th align="center" >S.No.</th>   
+                <th align="center"> Register No.</th>
+                <th align="center"> Student Name</th>
+                <th align="center"> Total Hours</th>
+                <th align="center"> Present Hours</th>
+                <th align="center"> Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 1</td>
+                    <td> 112414001      </td>
+                    <td> AMIRTHAVARSHINI S B</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 39</td>
+                    <td align="right"> 86.67</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 2</td>
+                    <td> 112414002      </td>
+                    <td> ARAVINDAN S</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 32</td>
+                    <td align="right"> 71.11</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 3</td>
+                    <td> 112414003      </td>
+                    <td> DEVARAM RISHI PREETHAM</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 7</td>
+                    <td align="right"> 15.56</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 4</td>
+                    <td> 112414004      </td>
+                    <td> DHANUSH V</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 40</td>
+                    <td align="right"> 88.89</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 5</td>
+                    <td> 112414005      </td>
+                    <td> DILLIBABU A</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 42</td>
+                    <td align="right"> 93.33</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 6</td>
+                    <td> 112414006      </td>
+                    <td> DIXAN M</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 34</td>
+                    <td align="right"> 75.56</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 7</td>
+                    <td> 112414007      </td>
+                    <td> GOKUL AD</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 27</td>
+                    <td align="right"> 60.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 8</td>
+                    <td> 112414009      </td>
+                    <td> GOWRASAMUDRA SHIVAKESHAVA THEERTHA</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 77.78</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 9</td>
+                    <td> 112414010      </td>
+                    <td> HARINI V</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 97.78</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 10</td>
+                    <td> 112414011      </td>
+                    <td> JAYASHREE R</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 39</td>
+                    <td align="right"> 86.67</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 11</td>
+                    <td> 112414012      </td>
+                    <td> MANIKANDAN K</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 36</td>
+                    <td align="right"> 80.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 12</td>
+                    <td> 112414013      </td>
+                    <td> RAKSHITHA D</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 100.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 13</td>
+                    <td> 112414014      </td>
+                    <td> T REAHAN AHMED</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 24</td>
+                    <td align="right"> 53.33</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 14</td>
+                    <td> 112414015      </td>
+                    <td> SANDHIYA G</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 34</td>
+                    <td align="right"> 75.56</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 15</td>
+                    <td> 112414016      </td>
+                    <td> SUBHASRI M S</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 41</td>
+                    <td align="right"> 91.11</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 16</td>
+                    <td> 112414017      </td>
+                    <td> SUNILKUMAR V</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 26</td>
+                    <td align="right"> 57.78</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 17</td>
+                    <td> 112414018      </td>
+                    <td> THIRUSH K</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 34</td>
+                    <td align="right"> 75.56</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 18</td>
+                    <td> 112414019      </td>
+                    <td> ANIRUDH A</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 34</td>
+                    <td align="right"> 75.56</td>
+
+                </tr>
+            
+
+            
+        </tbody>
+    </table>
+</form>
+

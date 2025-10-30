@@ -1,0 +1,402 @@
+
+
+
+
+
+ 
+    <style>
+
+    body {
+        /*font-family: "Courier New", monospace;*/
+        font-size: 8pt;
+        background-image: none;
+        background-color: white;
+        margin-left:auto;
+        margin-right:auto; 
+        margin-top: auto; 
+    }
+
+    table.myTable { border-collapse:collapse; border:0px solid black;padding:5px; }
+
+    table.myTable td, table.myTable th { border:1px solid black;padding:10px; }
+
+    table.myTable2 { border-collapse:collapse; border:0px solid black;padding:5px; }
+
+    table.myTable2 td, table.myTable th { border:0px solid black;padding:5px; }
+
+    table.myTable3 { border-collapse:collapse; border:1px solid black;padding:5px;margin-top: 100px; }
+
+    table.myTable3 td, table.myTable3 th { border:1px solid black;padding:5px; }
+
+    table.myTable4 { border-collapse:collapse; border:1px solid black;padding:5px; }
+
+    table.myTable4 td, table.myTable4 th { border:0px solid black;padding:5px; }
+
+    .breakAfter {
+
+        page-break-after: always
+
+    }
+
+</style>
+ 
+        
+<form name="frmAttendanceCourseReport" id="frmAttendanceCourseReport" method="post" autocomplete="off" style="background: white">
+    
+    <table class="myTable" style="background: white"  width='100%' cellpadding="5" cellspacing="2" align='center' border="1"  id="tblView1" >
+        <thead>
+            <tr>
+                <th colspan="6">
+                    <table class="myTable4" width="100%">
+                            <tr>
+                                <td >Office</td> 
+                                <td width='70%'>SCSVMV UNIVERSITY CAMPUS (ENATHUR)</td>  
+                            </tr>
+                            <tr>
+                                <td >Program & Section</td> 
+                                <td width='70%'>2314 - B.Sc. Cyber Security 1st Semester-S1</td>  
+                            </tr>
+                            <tr>
+                                <td >Subject</td>
+                                <td width='70%'>2314 - B.Sc. Cyber Security 1st Semester-S1</td>
+                            </tr>
+ 
+                        </table>
+                </th>
+            </tr>
+            <tr>
+                <th align="center" >S.No.</th>   
+                <th align="center"> Register No.</th>
+                <th align="center"> Student Name</th>
+                <th align="center"> Total Hours</th>
+                <th align="center"> Present Hours</th>
+                <th align="center"> Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 1</td>
+                    <td> 112514001      </td>
+                    <td> G ADHITHYA RAM</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 70.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 2</td>
+                    <td> 112514002      </td>
+                    <td> ANANTHAPURAM LAKSHMI NAGA DIVIJA</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 43</td>
+                    <td align="right"> 86.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 3</td>
+                    <td> 112514003      </td>
+                    <td> DASS PRAKASH T</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 24</td>
+                    <td align="right"> 48.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 4</td>
+                    <td> 112514004      </td>
+                    <td> DHAYANITHI R</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 36</td>
+                    <td align="right"> 72.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 5</td>
+                    <td> 112514005      </td>
+                    <td> HARINI G</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 90.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 6</td>
+                    <td> 112514006      </td>
+                    <td> HARISH S</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 38</td>
+                    <td align="right"> 76.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 7</td>
+                    <td> 112514007      </td>
+                    <td> HARISHKUMAR N</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 90.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 8</td>
+                    <td> 112514008      </td>
+                    <td> MANOJKUMAR V</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 49</td>
+                    <td align="right"> 98.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 9</td>
+                    <td> 112514009      </td>
+                    <td> MOHAMMAD MABRUR M</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 48</td>
+                    <td align="right"> 96.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 10</td>
+                    <td> 112514010      </td>
+                    <td> MUJAFFER KHAN A</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 28</td>
+                    <td align="right"> 56.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 11</td>
+                    <td> 112514011      </td>
+                    <td> MUKESH Y</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 43</td>
+                    <td align="right"> 86.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 12</td>
+                    <td> 112514012      </td>
+                    <td> NARMADHA U</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 47</td>
+                    <td align="right"> 94.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 13</td>
+                    <td> 112514013      </td>
+                    <td> NAVEEN KUMAR S</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 41</td>
+                    <td align="right"> 82.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 14</td>
+                    <td> 112514014      </td>
+                    <td> PANANGIPALLI KALYANI LAHARI</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 41</td>
+                    <td align="right"> 82.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 15</td>
+                    <td> 112514015      </td>
+                    <td> RACHAKONDA VEERA VENKATA LAKSHMI TEJASWI</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 88.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 16</td>
+                    <td> 112514016      </td>
+                    <td> RIZWAN SHERIF A</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 32</td>
+                    <td align="right"> 64.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 17</td>
+                    <td> 112514017      </td>
+                    <td> SANJAY N</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 41</td>
+                    <td align="right"> 82.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 18</td>
+                    <td> 112514018      </td>
+                    <td> SARASA VENKATA NAGASURYA GAYATHRIPRASANNA</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 42</td>
+                    <td align="right"> 84.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 19</td>
+                    <td> 112514019      </td>
+                    <td> SUMAIYA B</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 88.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 20</td>
+                    <td> 112514020      </td>
+                    <td> SWATHISRI S</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 39</td>
+                    <td align="right"> 78.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 21</td>
+                    <td> 112514021      </td>
+                    <td> THAMIZHARASU V</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 46</td>
+                    <td align="right"> 92.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 22</td>
+                    <td> 112514022      </td>
+                    <td> VAISHNAVI M</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 88.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 23</td>
+                    <td> 112514023      </td>
+                    <td> VIGNESHWAR A</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 100.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 24</td>
+                    <td> 112514024      </td>
+                    <td> YUGANDHARAN M D</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 49</td>
+                    <td align="right"> 98.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 25</td>
+                    <td> 112514025      </td>
+                    <td> BALAKRISHNA R</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 39</td>
+                    <td align="right"> 78.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 26</td>
+                    <td> 112514026      </td>
+                    <td> SANJAY S</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 29</td>
+                    <td align="right"> 58.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 27</td>
+                    <td> 112514027      </td>
+                    <td> SATHYANARAYANAN S</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 39</td>
+                    <td align="right"> 78.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 28</td>
+                    <td> 112514028      </td>
+                    <td> SHRIYA A</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 36</td>
+                    <td align="right"> 72.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 29</td>
+                    <td> 112514029      </td>
+                    <td> NITHISH KUMAR G</td>
+                    <td align="right"> 0</td>
+                    <td align="right"> 0</td>
+                    <td align="right"> 0</td>
+
+                </tr>
+            
+
+            
+        </tbody>
+    </table>
+</form>
+

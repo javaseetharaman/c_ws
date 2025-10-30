@@ -1,0 +1,688 @@
+
+
+
+
+
+ 
+    <style>
+
+    body {
+        /*font-family: "Courier New", monospace;*/
+        font-size: 8pt;
+        background-image: none;
+        background-color: white;
+        margin-left:auto;
+        margin-right:auto; 
+        margin-top: auto; 
+    }
+
+    table.myTable { border-collapse:collapse; border:0px solid black;padding:5px; }
+
+    table.myTable td, table.myTable th { border:1px solid black;padding:10px; }
+
+    table.myTable2 { border-collapse:collapse; border:0px solid black;padding:5px; }
+
+    table.myTable2 td, table.myTable th { border:0px solid black;padding:5px; }
+
+    table.myTable3 { border-collapse:collapse; border:1px solid black;padding:5px;margin-top: 100px; }
+
+    table.myTable3 td, table.myTable3 th { border:1px solid black;padding:5px; }
+
+    table.myTable4 { border-collapse:collapse; border:1px solid black;padding:5px; }
+
+    table.myTable4 td, table.myTable4 th { border:0px solid black;padding:5px; }
+
+    .breakAfter {
+
+        page-break-after: always
+
+    }
+
+</style>
+ 
+        
+<form name="frmAttendanceCourseReport" id="frmAttendanceCourseReport" method="post" autocomplete="off" style="background: white">
+    
+    <table class="myTable" style="background: white"  width='100%' cellpadding="5" cellspacing="2" align='center' border="1"  id="tblView1" >
+        <thead>
+            <tr>
+                <th colspan="6">
+                    <table class="myTable4" width="100%">
+                            <tr>
+                                <td >Office</td> 
+                                <td width='70%'>SCSVMV UNIVERSITY CAMPUS (ENATHUR)</td>  
+                            </tr>
+                            <tr>
+                                <td >Program & Section</td> 
+                                <td width='70%'>2534 - B.C.A. Bachelor of Computer Applications 1st Semester-S1</td>  
+                            </tr>
+                            <tr>
+                                <td >Subject</td>
+                                <td width='70%'>2534 - B.C.A. Bachelor of Computer Applications 1st Semester-S1</td>
+                            </tr>
+ 
+                        </table>
+                </th>
+            </tr>
+            <tr>
+                <th align="center" >S.No.</th>   
+                <th align="center"> Register No.</th>
+                <th align="center"> Student Name</th>
+                <th align="center"> Total Hours</th>
+                <th align="center"> Present Hours</th>
+                <th align="center"> Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 1</td>
+                    <td> 112534001      </td>
+                    <td> AKASH J</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 48</td>
+                    <td align="right"> 71.64</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 2</td>
+                    <td> 112534002      </td>
+                    <td> AKASH L</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 38</td>
+                    <td align="right"> 56.72</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 3</td>
+                    <td> 112534003      </td>
+                    <td> BADRINATH H</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 19</td>
+                    <td align="right"> 28.36</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 4</td>
+                    <td> 112534004      </td>
+                    <td> BALAJI M</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 42</td>
+                    <td align="right"> 62.69</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 5</td>
+                    <td> 112534005      </td>
+                    <td> BANU PRAKASH B</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 50</td>
+                    <td align="right"> 74.63</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 6</td>
+                    <td> 112534006      </td>
+                    <td> DEVI PRIYA S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 57</td>
+                    <td align="right"> 85.07</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 7</td>
+                    <td> 112534007      </td>
+                    <td> DHARSHAN R</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 65.67</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 8</td>
+                    <td> 112534008      </td>
+                    <td> DINESH KANNAN G</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 59</td>
+                    <td align="right"> 88.06</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 9</td>
+                    <td> 112534009      </td>
+                    <td> ENIYA T</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 64</td>
+                    <td align="right"> 95.52</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 10</td>
+                    <td> 112534010      </td>
+                    <td> EZHILARASAN S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 40</td>
+                    <td align="right"> 59.70</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 11</td>
+                    <td> 112534012      </td>
+                    <td> HARIPRASATH S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 52.24</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 12</td>
+                    <td> 112534013      </td>
+                    <td> HARISH RAGAVENDAR V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 22</td>
+                    <td align="right"> 32.84</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 13</td>
+                    <td> 112534014      </td>
+                    <td> HARISREE S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 61</td>
+                    <td align="right"> 91.04</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 14</td>
+                    <td> 112534015      </td>
+                    <td> HEMANATH R</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 52.24</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 15</td>
+                    <td> 112534017      </td>
+                    <td> KAMESH V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 55</td>
+                    <td align="right"> 82.09</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 16</td>
+                    <td> 112534018      </td>
+                    <td> KANDEEPAN T</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 63</td>
+                    <td align="right"> 94.03</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 17</td>
+                    <td> 112534019      </td>
+                    <td> KARTHIKEYAN S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 62</td>
+                    <td align="right"> 92.54</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 18</td>
+                    <td> 112534020      </td>
+                    <td> KISHORE KUMAR S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 47</td>
+                    <td align="right"> 70.15</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 19</td>
+                    <td> 112534021      </td>
+                    <td> KOTTEESWARAN R</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 64</td>
+                    <td align="right"> 95.52</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 20</td>
+                    <td> 112534022      </td>
+                    <td> LAKSHMI PRIYA K</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 51</td>
+                    <td align="right"> 76.12</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 21</td>
+                    <td> 112534023      </td>
+                    <td> LITHIKKUMAR S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 60</td>
+                    <td align="right"> 89.55</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 22</td>
+                    <td> 112534024      </td>
+                    <td> MADHAN P</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 67.16</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 23</td>
+                    <td> 112534025      </td>
+                    <td> MANIGANDAN SHA V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 54</td>
+                    <td align="right"> 80.60</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 24</td>
+                    <td> 112534026      </td>
+                    <td> MATHESH S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 43</td>
+                    <td align="right"> 64.18</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 25</td>
+                    <td> 112534027      </td>
+                    <td> MOHANA KRISHNAN S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 65.67</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 26</td>
+                    <td> 112534028      </td>
+                    <td> MONISH R</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 57</td>
+                    <td align="right"> 85.07</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 27</td>
+                    <td> 112534029      </td>
+                    <td> MURUGANANDAN S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 61</td>
+                    <td align="right"> 91.04</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 28</td>
+                    <td> 112534030      </td>
+                    <td> NARESHKUMAR S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 48</td>
+                    <td align="right"> 71.64</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 29</td>
+                    <td> 112534031      </td>
+                    <td> NITHISH T</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 43</td>
+                    <td align="right"> 64.18</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 30</td>
+                    <td> 112534032      </td>
+                    <td> POOVARASAN V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 43</td>
+                    <td align="right"> 64.18</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 31</td>
+                    <td> 112534033      </td>
+                    <td> PRASATH B S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 47</td>
+                    <td align="right"> 70.15</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 32</td>
+                    <td> 112534034      </td>
+                    <td> PRAVEEN KUMAR J</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 45</td>
+                    <td align="right"> 67.16</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 33</td>
+                    <td> 112534036      </td>
+                    <td> RAGHAVI S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 52</td>
+                    <td align="right"> 77.61</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 34</td>
+                    <td> 112534037      </td>
+                    <td> R RAJALAKSHMI</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 100.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 35</td>
+                    <td> 112534038      </td>
+                    <td> RAJLAXMI D</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 59</td>
+                    <td align="right"> 88.06</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 36</td>
+                    <td> 112534039      </td>
+                    <td> RAJESHKUMAR P</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 52.24</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 37</td>
+                    <td> 112534040      </td>
+                    <td> ROHINI G</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 66</td>
+                    <td align="right"> 98.51</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 38</td>
+                    <td> 112534041      </td>
+                    <td> ROHITH T</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 100.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 39</td>
+                    <td> 112534042      </td>
+                    <td> SAFREEN FATHIMA H</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 31</td>
+                    <td align="right"> 46.27</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 40</td>
+                    <td> 112534043      </td>
+                    <td> SANTHOSH D</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 52.24</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 41</td>
+                    <td> 112534044      </td>
+                    <td> SARATHI J</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 100.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 42</td>
+                    <td> 112534045      </td>
+                    <td> SARAVANAN H</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 35</td>
+                    <td align="right"> 52.24</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 43</td>
+                    <td> 112534046      </td>
+                    <td> SARVESH S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 56</td>
+                    <td align="right"> 83.58</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 44</td>
+                    <td> 112534047      </td>
+                    <td> SATHAGATHULLA A</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 38</td>
+                    <td align="right"> 56.72</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 45</td>
+                    <td> 112534048      </td>
+                    <td> SHRIJHA G</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 64</td>
+                    <td align="right"> 95.52</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 46</td>
+                    <td> 112534049      </td>
+                    <td> SINDHUJA J</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 51</td>
+                    <td align="right"> 76.12</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 47</td>
+                    <td> 112534050      </td>
+                    <td> SRUTHI P</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 62</td>
+                    <td align="right"> 92.54</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 48</td>
+                    <td> 112534051      </td>
+                    <td> STEPHEN V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 36</td>
+                    <td align="right"> 53.73</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 49</td>
+                    <td> 112534052      </td>
+                    <td> THANIGAIVEL J</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 53</td>
+                    <td align="right"> 79.10</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 50</td>
+                    <td> 112534053      </td>
+                    <td> THARNESH T</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 100.00</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 51</td>
+                    <td> 112534054      </td>
+                    <td> VAIBAV V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 58</td>
+                    <td align="right"> 86.57</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 52</td>
+                    <td> 112534055      </td>
+                    <td> VISHALI S</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 64</td>
+                    <td align="right"> 95.52</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 53</td>
+                    <td> 112534056      </td>
+                    <td> VISHNU V</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 55</td>
+                    <td align="right"> 82.09</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 54</td>
+                    <td> 112534057      </td>
+                    <td> VISHWANATHAN N</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 44</td>
+                    <td align="right"> 65.67</td>
+
+                </tr>
+            
+                
+                <tr style="cursor:pointer" >
+                    <td align="right"> 55</td>
+                    <td> 112534058      </td>
+                    <td> YUVESRI B</td>
+                    <td align="right"> 67</td>
+                    <td align="right"> 53</td>
+                    <td align="right"> 79.10</td>
+
+                </tr>
+            
+
+            
+        </tbody>
+    </table>
+</form>
+
